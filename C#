@@ -1,0 +1,15 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string city = "Kyiv";
+        int temperature = 22;
+        string condition = "Sunny";
+
+        Console.WriteLine($"City: {city}");
+        Console.WriteLine($"Temperature: {temperature}°C");
+        Console.WriteLine($"Condition: {condition}");
+    }
+}
