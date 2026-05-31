@@ -1,0 +1,9 @@
+weather = {
+    "city": "Kyiv",
+    "temperature": 22,
+    "condition": "Sunny"
+}
+
+print(f"City: {weather['city']}")
+print(f"Temperature: {weather['temperature']}°C")
+print(f"Condition: {weather['condition']}")
