@@ -1,0 +1,9 @@
+const weather = {
+    city: "Kyiv",
+    temperature: 22,
+    condition: "Sunny"
+};
+
+console.log(`City: ${weather.city}`);
+console.log(`Temperature: ${weather.temperature}°C`);
+console.log(`Condition: ${weather.condition}`);
