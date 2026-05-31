@@ -1,0 +1,13 @@
+<?php
+
+$weather = [
+    "city" => "Kyiv",
+    "temperature" => 22,
+    "condition" => "Sunny"
+];
+
+echo "City: " . $weather["city"] . PHP_EOL;
+echo "Temperature: " . $weather["temperature"] . "°C" . PHP_EOL;
+echo "Condition: " . $weather["condition"] . PHP_EOL;
+
+?>
